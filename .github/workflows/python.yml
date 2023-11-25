@@ -31,4 +31,4 @@ jobs:
         aws configure set region us-east-1  # Substitua pela sua região
 
     - name: Copiar para AWS S3
-      run: aws s3 cp s3_sample.py s3://fjs-bucket-python/  # Substitua pelo nome do seu programa e bucket
+      run: aws s3 cp s3_sample.py s3://buckets/fjs-bucket-python/  # Substitua pelo nome do seu programa e bucket
